@@ -11,12 +11,14 @@ A collection of (Windows Batch, Python, etc.) scripts I've written/collected ove
 * Convert audio (.webm to .mp3)
 * Convert audio (.webm to .wav)
 * Convert video ()
-* Download audio (Soundcloud/YouTube)
-* Heatmapper - horizontal gradient image generator.
+* Download audio (Soundcloud/YouTube) - using youtube-dl.
+* Extract text from image (OCR) - using tesseract.
+* Heatmapper - horizontal gradient image generator. - using imagemagick.
 
 ## Requirements (for all scripts)
 
 * ffmpeg
 * ImageMagick
 * Python
+* tesseract
 * youtube-dl
