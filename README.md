@@ -2,6 +2,20 @@
 
 A collection of (Windows Batch, Python, ImageMagick, etc.) scripts I've written/collected over the years, aimed to increase productivity.
 
+## What's Inside
+
+* Convert audio (.m4a to .mp3)
+* Convert audio (.m4a to .wav)
+* Convert audio (.wav to .wav) - prompt/noprompt - used specifically when I exported audio files from Halo: CE and couldn't import them into Adobe Premiere (without converting them to .wav first)
+* Convert audio (.wav to .mp3)
+* Convert audio (.webm to .mp3)
+* Convert audio (.webm to .wav)
+* Convert video ()
+* Download audio (Soundcloud/YouTube)
+* Heatmapper - horizontal gradient image generator.
+
 ## Requirements (for all scripts)
 
+* ffmpeg
 * ImageMagick
+* youtube-dl
