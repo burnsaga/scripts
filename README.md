@@ -1,6 +1,6 @@
 # Scripts
 
-A collection of (Windows Batch, Python, ImageMagick, etc.) scripts I've written/collected over the years, aimed to increase productivity.
+A collection of (Windows Batch, Python, etc.) scripts I've written/collected over the years, aimed to increase productivity.
 
 ## What's Inside
 
@@ -18,4 +18,5 @@ A collection of (Windows Batch, Python, ImageMagick, etc.) scripts I've written/
 
 * ffmpeg
 * ImageMagick
+* Python
 * youtube-dl
