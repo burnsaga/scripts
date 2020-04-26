@@ -13,6 +13,13 @@ set interp_method=Catrom
 set gradient=
 set gradient_type1=gradient:angle=-90
 set gradient_type2=gradient
+set color1=
+set color2=
+set color3=
+set color4=
+set color5=
+set color6=
+set color7=
 
 :: Prompt for image_size
 set /p image_size=Enter the output image dimensions (WxH) or press Enter to accept default of '1920x1080': 
@@ -115,7 +122,7 @@ goto a
 
 :n3
 :: Call imagemagick to output 2-color gradient image
-magick -size %image_size% -define %gradient_type1% %gradient_type2%:%color1%-%color2% gradient_%gradient%_%color1%-%color2%_%image_size%.jpg
+magick -size %image_size% -define %gradient_type1% %gradient_type2%:%color2%-%color1% gradient_%gradient%_%color1%-%color2%_%image_size%.jpg
 goto a
 
 :n4
