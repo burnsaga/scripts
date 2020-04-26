@@ -8,7 +8,7 @@ Outputs a linear or radial gradient image (up to 7 colors).
 
 ## Usage
 
-1. Run the batch file and input image size, interpolation method, and colors.
+1. Run the batch file and input image size, interpolation method, gradient type or rotation, and colors.
 
 ## Examples
 
