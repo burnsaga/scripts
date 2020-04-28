@@ -2,7 +2,7 @@
 
 Outputs a linear or radial gradient image (up to 7 colors).
 
-[Video Demo](http://www.youtube.com/watch?feature=player_embedded&v=0x2s3HWSqDU)
+[📹 Video Demo](http://www.youtube.com/watch?feature=player_embedded&v=0x2s3HWSqDU)
 
 ## Requirements
 
