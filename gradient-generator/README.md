@@ -2,6 +2,9 @@
 
 Outputs a linear or radial gradient image (up to 7 colors).
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0x2s3HWSqDU" target="_blank"><img src="http://img.youtube.com/vi/0x2s3HWSqDU/0.jpg" 
+alt="Gradient Generator Demo (YouTube)" width="240" height="180" border="10" /></a>
+
 ## Requirements
 
 * ImageMagick
