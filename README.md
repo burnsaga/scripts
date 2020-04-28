@@ -13,10 +13,12 @@ A collection of (Windows Batch, Python, etc.) scripts I've written/collected ove
 * Convert video ()
 * Download audio (Soundcloud/YouTube) - using youtube-dl.
 * Extract text from image (OCR) - using tesseract.
-* Heatmapper - horizontal gradient image generator. - using imagemagick.
+* Gradient Generator - linear/radial gradient image generator (up to 7 colors). - using imagemagick.
+* Unzip All 
 
 ## Requirements (for all scripts)
 
+* 7zip
 * ffmpeg
 * ImageMagick
 * Python
