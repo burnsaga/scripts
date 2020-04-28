@@ -1,8 +1,8 @@
-@echo off
-title Download YouTube/Soundcloud audio (best quality)
+@ECHO OFF
+TITLE Download YouTube/Soundcloud audio (best quality)
 :: Prompt user for URL
 :a
-set /p url=Enter the URL to download: 
+SET /p url=Enter the URL to download: 
 :: Call youtube-dl to download YouTube audio
 youtube-dl %url% -f bestaudio
-goto a
+GOTO a
