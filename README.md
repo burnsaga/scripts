@@ -10,15 +10,22 @@ A collection of (Windows Batch, Python, etc.) scripts I've written/collected ove
 * Convert audio (.wav to .mp3)
 * Convert audio (.webm to .mp3)
 * Convert audio (.webm to .wav)
+* Convert archive (.7z to .rar) - uses 7-Zip.
+* Convert archive (.7z to .zip) - uses 7-Zip.
+* Convert archive (.rar to .7z) - uses 7-Zip.
+* Convert archive (.rar to .zip) - uses 7-Zip.
+* Convert archive (.zip to .7z) - uses 7-Zip.
+* Convert archive (.zip to .rar) - uses 7-Zip.
 * Convert video ()
 * Download audio (Soundcloud/YouTube) - using youtube-dl.
+* Download video (YouTube) - using youtube-dl.
 * Extract text from image (OCR) - using tesseract.
 * Gradient Generator - linear/radial gradient image generator (up to 7 colors). - using imagemagick.
-* Unzip All 
+* Unzip (all within folder) 
 
 ## Requirements (for all scripts)
 
-* 7zip
+* 7-Zip
 * ffmpeg
 * ImageMagick
 * Python
