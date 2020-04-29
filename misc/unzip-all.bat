@@ -8,5 +8,4 @@ FOR /F "TOKENS=*" %%F IN ('DIR /S /B "*.zip"') DO "C:\Program Files\7-Zip\7z.exe
 FOR /F "TOKENS=*" %%F IN ('DIR /S /B "*.7z"') DO "C:\Program Files\7-Zip\7z.exe" x "%%~fF" -o"%%~pF\"
 FOR /F "TOKENS=*" %%F IN ('DIR /S /B "*.rar"') DO "C:\Program Files\7-Zip\7z.exe" x "%%~fF" -o"%%~pF\"
 
-PAUSE :: Wait for user to confirm to close
-::EXIT :: Terminate the program
+EXIT
