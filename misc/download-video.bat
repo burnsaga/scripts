@@ -1,5 +1,5 @@
 @ECHO OFF
-TITLE Download YouTube video (best quality)
+TITLE Download Video (YouTube, best quality)
 :: Prompt user for URL
 :a
 SET /p url=Enter the URL to download: 
