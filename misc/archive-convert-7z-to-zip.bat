@@ -1,3 +1,4 @@
+@echo off
 set input=7z
 set output=zip
 

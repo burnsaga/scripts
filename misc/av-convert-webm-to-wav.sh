@@ -1,0 +1,1 @@
+for i in *.webm; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .webm)".wav; done

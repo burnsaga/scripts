@@ -1,3 +1,4 @@
+@echo off
 title Extract Text from Image
 :: Call tesseract to read text from an image and output it to a text file
 
