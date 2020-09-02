@@ -1,0 +1,1 @@
+for i in *.jpg; do convert "$i" -resize 25% "$(basename "$i" .jpg)".jpg; done
