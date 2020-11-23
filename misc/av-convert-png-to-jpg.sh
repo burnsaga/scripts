@@ -1,0 +1,1 @@
+for i in *.png; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .png)".jpg; done
