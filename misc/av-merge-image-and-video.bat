@@ -1,0 +1,2 @@
+:: ref: https://superuser.com/questions/1320984/concatenate-image-and-video-using-ffmpeg
+ffmpeg -loop 1 -framerate 24 -t 10 -i image.jpg -i video.mp4 -filter_complex "[0]scale=432:432,setsar=1[im];[1]scale=432:432,setsar=1[vid];[im][vid]concat=n=2:v=1:a=0" out.mp4
