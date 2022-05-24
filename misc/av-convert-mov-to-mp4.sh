@@ -1,0 +1,1 @@
+for i in *.mov; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .mov)".mp4; done

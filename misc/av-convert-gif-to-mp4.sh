@@ -1,0 +1,1 @@
+for i in *.gif; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .gif)".mp4; done

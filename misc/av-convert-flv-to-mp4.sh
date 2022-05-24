@@ -1,0 +1,1 @@
+for i in *.flv; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .flv)".mp4; done

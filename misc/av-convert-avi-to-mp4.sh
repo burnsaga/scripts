@@ -1,0 +1,1 @@
+for i in *.avi; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .avi)".mp4; done
