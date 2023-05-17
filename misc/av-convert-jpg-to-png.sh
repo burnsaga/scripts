@@ -1,1 +1,5 @@
-for i in *.jpg; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .jpg)".png; done
+#!/bin/bash
+# place this script next to images you want to convert, then run this script
+for file in *.jpg *.jpeg; do
+  mv -- "$file" "${file%.*}.png"
+done

@@ -1,0 +1,1 @@
+for i in *.webp; do ffmpeg -i "$i" -qscale 0 "$(basename "$i" .webp)".png; done
